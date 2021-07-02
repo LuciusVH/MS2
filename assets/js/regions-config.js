@@ -1,6 +1,6 @@
 const REGION_CONFIG = [{
         name: "Ile-de-France",
-        slide: "assets/img/regions/ile-de-france.jpg",
+        slideBackground: "assets/img/regions/ile-de-france.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-ile-de-france.png",
         images: [
@@ -15,7 +15,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Hauts-de-France",
-        slide: "assets/img/regions/hauts-de-france.jpg",
+        slideBackground: "assets/img/regions/hauts-de-france.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-hauts-de-france.png",
         images: [
@@ -30,7 +30,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Normandie",
-        slide: "assets/img/regions/normandie.jpg",
+        slideBackground: "assets/img/regions/normandie.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-normandie.png",
         images: [
@@ -45,7 +45,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Grand-Est",
-        slide: "assets/img/regions/grand-est.jpg",
+        slideBackground: "assets/img/regions/grand-est.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-grand-est.png",
         images: [
@@ -60,7 +60,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Bretagne",
-        slide: "assets/img/regions/bretagne.jpg",
+        slideBackground: "assets/img/regions/bretagne.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-bretagne.png",
         images: [
@@ -75,7 +75,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Pays de la Loire",
-        slide: "assets/img/regions/pays-de-la-loire.jpg",
+        slideBackground: "assets/img/regions/pays-de-la-loire.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-pays-de-la-loire.png",
         images: [
@@ -90,7 +90,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Centre-Val de Loire",
-        slide: "assets/img/regions/centre-val-de-loire.jpg",
+        slideBackground: "assets/img/regions/centre-val-de-loire.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-centre-val-de-loire.png",
         images: [
@@ -105,7 +105,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Bourgogne-Franche-Comté",
-        slide: "assets/img/regions/bourgogne-franche-comte.jpg",
+        slideBackground: "assets/img/regions/bourgogne-franche-comte.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-bourgogne-franche-comte.png",
         images: [
@@ -120,7 +120,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Nouvelle-Aquitaine",
-        slide: "assets/img/regions/nouvelle-aquitaine.jpg",
+        slideBackground: "assets/img/regions/nouvelle-aquitaine.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-nouvelle-aquitaine.png",
         images: [
@@ -135,7 +135,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Auvergne-Rhône-Alpes",
-        slide: "assets/img/regions/auvergne-rhone-alpes.jpg",
+        slideBackground: "assets/img/regions/auvergne-rhone-alpes.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-auvergne-rhone-alpes.png",
         images: [
@@ -150,7 +150,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Occitanie",
-        slide: "assets/img/regions/occitanie.jpg",
+        slideBackground: "assets/img/regions/occitanie.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-occitanie.png",
         images: [
@@ -165,7 +165,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Provence-Alpes-Côte d'Azur",
-        slide: "assets/img/regions/provence-alpes-cote-dazur.jpg",
+        slideBackground: "assets/img/regions/provence-alpes-cote-dazur.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-provence-alpes-cote-dazur.png",
         images: [
@@ -180,7 +180,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Corse",
-        slide: "assets/img/regions/corse.jpg",
+        slideBackground: "assets/img/regions/corse.jpg",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-corse.png",
         images: [
@@ -195,7 +195,7 @@ const REGION_CONFIG = [{
     },
     {
         name: "Outre Mer",
-        slide: "assets/img/regions/outre-mer.jpg",
+        slideBackground: "assets/img/regions/outre-mer.jpg",
         description: "Bah Blah Blah",
         blazon: "",
         images: [
@@ -209,22 +209,3 @@ const REGION_CONFIG = [{
         }
     }
 ]
-
-
-
-// function slideCreation(slide, name) {
-//     $('#region-slide').append('<li />').find('li').addClass('glide__slide');
-//     $('#region-slide li:last-child').append('<div />').find('div').addClass('region-card').css('background-image', 'linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("${item.slide}")');
-//     $('#region-slide li div:last-child').append('<h3 />').find('h3').addClass('region-card-name').text('${item.name}');
-
-//     let slide = (`
-// <li class="glide__slide">
-//     <div class="region-card" style="background-image:url('${item.slide}');">
-//         <h3 class="region-card-name">${item.name}</h3>
-//     </div>
-// </li>`);
-
-//     $("#region-slide").append(slide);
-// }
-
-// slideCreation();
