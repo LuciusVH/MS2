@@ -1,6 +1,7 @@
 const REGION_CONFIG = [{
         name: "Ile-de-France",
         slideBackground: "assets/img/regions/ile-de-france.jpg",
+        id: "region-idf",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-ile-de-france.png",
         images: [
@@ -16,6 +17,7 @@ const REGION_CONFIG = [{
     {
         name: "Hauts-de-France",
         slideBackground: "assets/img/regions/hauts-de-france.jpg",
+        id: "region-hdf",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-hauts-de-france.png",
         images: [
@@ -31,6 +33,7 @@ const REGION_CONFIG = [{
     {
         name: "Normandie",
         slideBackground: "assets/img/regions/normandie.jpg",
+        id: "region-no",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-normandie.png",
         images: [
@@ -46,6 +49,7 @@ const REGION_CONFIG = [{
     {
         name: "Grand-Est",
         slideBackground: "assets/img/regions/grand-est.jpg",
+        id: "region-ge",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-grand-est.png",
         images: [
@@ -61,6 +65,7 @@ const REGION_CONFIG = [{
     {
         name: "Bretagne",
         slideBackground: "assets/img/regions/bretagne.jpg",
+        id: "region-br",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-bretagne.png",
         images: [
@@ -76,6 +81,7 @@ const REGION_CONFIG = [{
     {
         name: "Pays de la Loire",
         slideBackground: "assets/img/regions/pays-de-la-loire.jpg",
+        id: "region-pdll",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-pays-de-la-loire.png",
         images: [
@@ -91,6 +97,7 @@ const REGION_CONFIG = [{
     {
         name: "Centre-Val de Loire",
         slideBackground: "assets/img/regions/centre-val-de-loire.jpg",
+        id: "region-cvdl",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-centre-val-de-loire.png",
         images: [
@@ -106,6 +113,7 @@ const REGION_CONFIG = [{
     {
         name: "Bourgogne-Franche-Comté",
         slideBackground: "assets/img/regions/bourgogne-franche-comte.jpg",
+        id: "region-bfc",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-bourgogne-franche-comte.png",
         images: [
@@ -121,6 +129,7 @@ const REGION_CONFIG = [{
     {
         name: "Nouvelle-Aquitaine",
         slideBackground: "assets/img/regions/nouvelle-aquitaine.jpg",
+        id: "region-na",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-nouvelle-aquitaine.png",
         images: [
@@ -136,6 +145,7 @@ const REGION_CONFIG = [{
     {
         name: "Auvergne-Rhône-Alpes",
         slideBackground: "assets/img/regions/auvergne-rhone-alpes.jpg",
+        id: "region-ara",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-auvergne-rhone-alpes.png",
         images: [
@@ -151,6 +161,7 @@ const REGION_CONFIG = [{
     {
         name: "Occitanie",
         slideBackground: "assets/img/regions/occitanie.jpg",
+        id: "region-oc",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-occitanie.png",
         images: [
@@ -166,6 +177,7 @@ const REGION_CONFIG = [{
     {
         name: "Provence-Alpes-Côte d'Azur",
         slideBackground: "assets/img/regions/provence-alpes-cote-dazur.jpg",
+        id: "region-paca",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-provence-alpes-cote-dazur.png",
         images: [
@@ -181,6 +193,7 @@ const REGION_CONFIG = [{
     {
         name: "Corse",
         slideBackground: "assets/img/regions/corse.jpg",
+        id: "region-co",
         description: "Bah Blah Blah",
         blazon: "assets/img/regions/blazon-corse.png",
         images: [
@@ -196,6 +209,7 @@ const REGION_CONFIG = [{
     {
         name: "Outre Mer",
         slideBackground: "assets/img/regions/outre-mer.jpg",
+        id: "region-om",
         description: "Bah Blah Blah",
         blazon: "",
         images: [
