@@ -1152,7 +1152,7 @@ const REGION_CONFIG = [{
         coordinates: {
             lat: 12.2,
             lng: 12.3,
-            zoom: 9
+            zoom: 6
         },
         boundaries: [
             { lng: 0.79818, lat: 48.19484 },
@@ -2580,7 +2580,7 @@ const REGION_CONFIG = [{
         coordinates: {
             lat: 12.2,
             lng: 12.3,
-            zoom: 7
+            zoom: 6
         },
         boundaries: [
             [
@@ -2802,7 +2802,7 @@ const REGION_CONFIG = [{
         coordinates: {
             lat: 12.2,
             lng: 12.3,
-            zoom: 8
+            zoom: 7
         },
         boundaries: [
             { lng: 8.54, lat: 42.23654 },
