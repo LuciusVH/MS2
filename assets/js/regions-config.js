@@ -11,7 +11,7 @@ const REGION_CONFIG = [{
         ],
         coordinates: {
             lat: 48.67,
-            lng: 1.94,
+            lng: 2.5,
             zoom: 7
         },
         boundaries: [
@@ -123,8 +123,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 49.67,
+            lng: 2.5,
             zoom: 6
         },
         boundaries: [
@@ -295,8 +295,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 48.67,
+            lng: 0,
             zoom: 6
         },
         boundaries: [
@@ -484,8 +484,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 48.67,
+            lng: 5.85,
             zoom: 6
         },
         boundaries: [
@@ -722,8 +722,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 48.67,
+            lng: -3.12,
             zoom: 6
         },
         boundaries: [
@@ -948,8 +948,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 47.52,
+            lng: -1.18,
             zoom: 6
         },
         boundaries: [
@@ -1150,8 +1150,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 47.52,
+            lng: 1.48,
             zoom: 6
         },
         boundaries: [
@@ -1351,8 +1351,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 46.82,
+            lng: 4.91,
             zoom: 6
         },
         boundaries: [
@@ -1598,8 +1598,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 44.92,
+            lng: 0.1,
             zoom: 6
         },
         boundaries: [
@@ -1948,8 +1948,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 44.92,
+            lng: 4.5,
             zoom: 6
         },
         boundaries: [
@@ -2293,8 +2293,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 43.9,
+            lng: 2.1,
             zoom: 6
         },
         boundaries: [
@@ -2578,8 +2578,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 43.9,
+            lng: 5.8,
             zoom: 6
         },
         boundaries: [
@@ -2800,8 +2800,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 42.1,
+            lng: 8.9,
             zoom: 7
         },
         boundaries: [
@@ -2905,8 +2905,8 @@ const REGION_CONFIG = [{
             "/images/3.jpg",
         ],
         coordinates: {
-            lat: 12.2,
-            lng: 12.3,
+            lat: 0,
+            lng: 0,
             zoom: 1
         },
         boundaries: [
