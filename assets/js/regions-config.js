@@ -2732,7 +2732,7 @@ const REGION_CONFIG = [{
         name: "Corse",
         slideBackground: "assets/img/regions/corse.jpg",
         id: "region-co",
-        description: "Corsica island lies south-east of metropolitan France, in the Mediterranean Sea. Despite being fully integrated to France, the island is part of what's called territorial collectivies and enjoys a greater autonomy than other regions (eg. it has its own taxation system). Historically, the island was tied with the Italian Tuscany, hence why everything sounds more italianized there. For example, its capital is the city of Ajaccio. Sounds more Italian than French, right? Also is the regional official Corsican language. Oh, by the way, you probably have heard of Corsica's most famous citizen: Napoleon Bonaparte...?",
+        description: "Corsica island lies south-east of metropolitan France, in the Mediterranean Sea. Despite being fully integrated to France, the island is part of what's called territorial collectivies and enjoys a greater autonomy than other regions (e.g. it has its own taxation system). Historically, the island was tied with the Italian Tuscany, hence why everything is more italianized there. For example, its capital is the city of Ajaccio. Sounds more Italian than French, right? Also is the regional official Corsican language. Oh, by the way, you probably have heard of Corsica's most famous citizen: Napoleon Bonaparte...?",
         blazon: "assets/img/regions/blazon-corse.png",
         coordinates: {
             lat: 42.1,
