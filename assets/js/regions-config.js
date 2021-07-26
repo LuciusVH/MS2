@@ -134,7 +134,7 @@ const REGION_CONFIG = [{
         name: "Provence-Alpes-Côte d'Azur",
         slideBackground: "assets/img/regions/provence-alpes-cote-dazur.jpg",
         id: "region-paca",
-        description: "Mostly renowned for the French Riviera, the region is a booming market for tourism and real estate. The Principality of Monaco is enclaved inside it and the region shares a border with Italy on the east side. Marseille, its capital, is the oldest city in France, founded as far as around 600BC by the Greeks, and was then called Massalia. Avignon, being the official home of the Pope and seat of the Christian world from 1305 to 1376 (and unofficial from 1378 to 1403, during the Great Schism), has been doted of a beautiful palace, the Palais des Papes. The successive popes also fortified the city, most of these walls are still here nowadays.",
+        description: "Mostly renowned for the French Riviera, the region is a booming market for tourism and real estate. The Principality of Monaco is enclaved inside it and the region also shares a border with Italy on the east side. Marseille, its capital, is the oldest city in France, founded as far as around 600BC by the Greeks, and was then called Massalia. Avignon, being the official home of the Pope and center of the Christian world from 1305 to 1376 (and unofficial from 1378 to 1403, during the Great Schism), has been doted of a beautiful palace, the Palais des Papes. The successive popes also fortified the city, most of these walls are still here nowadays.",
         blazon: "assets/img/regions/blazon-provence-alpes-cote-dazur.png",
         coordinates: {
             lat: 43.9,
