@@ -98,7 +98,7 @@ const REGION_CONFIG = [{
         name: "Nouvelle-Aquitaine",
         slideBackground: "assets/img/regions/nouvelle-aquitaine.jpg",
         id: "region-na",
-        description: "Here is the largest of metropolitan French regions, with a surface of slightly more than 84'000km². The prefecture city is Bordeaux and as you might have guessed it, the region is the most famous for its wine! The city even recently dedicated it a museum, the Cité du Vin. Its beautiful architecture is said to be an evocation of the soul of the wine, a dialog between the city and the Garonne river. The region is also quite renowned for its different coastal resors, the two most famous being Biarritz and Arcachon. The city of Bayonne also annually hosts a week-long festival during summer, known as the Fêtes de Bayonne, where participants are invited to wear the traditional colors: white outfit with a red scarf as belt and/or tied around the neck. Lots of dancing, celebrations, and oh yeah, drinking wine. A LOT.",
+        description: "Here is the largest of metropolitan French regions, with a surface of slightly more than 84'000km². The prefecture city is Bordeaux and as you might have guessed it, the region is the most famous for its wine! The city even recently dedicated it a museum, the Cité du Vin. Its beautiful architecture is said to be an evocation of the soul of the wine, a dialog between the city and the Garonne river. The region is also quite renowned for its different coastal resorts, the two most famous being Biarritz and Arcachon. The city of Bayonne also annually hosts a week-long festival during summer, known as the Fêtes de Bayonne, where participants are invited to wear the traditional colors: white outfit with a red scarf as belt and/or tied around the neck. Lots of dancing, celebrations, and oh yeah, drinking wine. A LOT.",
         blazon: "assets/img/regions/blazon-nouvelle-aquitaine.png",
         coordinates: {
             lat: 44.92,
@@ -110,7 +110,7 @@ const REGION_CONFIG = [{
         name: "Auvergne-Rhône-Alpes",
         slideBackground: "assets/img/regions/auvergne-rhone-alpes.jpg",
         id: "region-ara",
-        description: "This region is the 2nd most populated, after Ile-de-France, with roughly 8 millions people. The capital, Lyon, is known to be the French gastronomy capital. It has been home of the late Paul Bocuse, probably the most famous French chef around the world. Mr Bocuse even gave his name to the Bocuse d'Or, recognized as the most prestigious award for chefs. His restaurant in surrounding Lyon, l'Auberge du Pont de Collonges, has held 3 Michelin stars for 55 years long (world record) but lost the 3rd one after the passing of Paul Bocuse. The region also offers the possibility to get some exercise after having had the best meal in your life, with numerous of ski resorts in the Alpes. It is the seat of the Mont Blanc, the western culminating mountain with 4808m.",
+        description: "This region is the 2nd most populated, after Ile-de-France, with roughly 8 millions people. The capital, Lyon, is known to be the French gastronomy capital. It has been home of the late Paul Bocuse, probably the most famous French chef around the world. Mr Bocuse even gave his name to the Bocuse d'Or, recognized as the most prestigious award for chefs. His restaurant in surrounding Lyon, l'Auberge du Pont de Collonges, has held 3 Michelin stars for 55 years long (world record) but lost the 3rd one after the passing of Paul Bocuse. The region also offers the possibility to get some exercise after having had the best meal in your life, with numerous ski resorts in the Alpes. It is the seat of the Mont Blanc, the western culminating mountain with 4808m.",
         blazon: "assets/img/regions/blazon-auvergne-rhone-alpes.png",
         coordinates: {
             lat: 44.92,
@@ -166,15 +166,126 @@ const REGION_CONFIG = [{
             zoom: 2
         },
         subdivions: [{
-            name: "La Réunion",
-            id: "oversea-re",
-            description: "Blablabla",
-            blazon: "",
-            coordinates: {
-                lat: 0,
-                lng: 70,
-                zoom: 2
+                name: "Réunion",
+                id: "oversea-re",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-reunion.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Nouvelle-Calédonie",
+                id: "oversea-nc",
+                description: "Blablabla",
+                blazon: "assets/img/regions/emblem-nouvelle-caledonie.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Mayotte",
+                id: "oversea-ma",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-mayotte.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Martinique",
+                id: "oversea-mt",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-martinique.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Guadeloupe",
+                id: "oversea-gd",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-guadeloupe.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Guyane Française",
+                id: "oversea-gu",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-guyane-francaise.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Saint-Martin",
+                id: "oversea-sm",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-saint-martin.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Saint-Barthélemy",
+                id: "oversea-sb",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-saint-barthelemy.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Wallis et Futuna",
+                id: "oversea-wf",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-wallis-futuna.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Polynésie Française",
+                id: "oversea-pf",
+                description: "Blablabla",
+                blazon: "assets/img/regions/blazon-polynesie-francaise.png",
+                coordinates: {
+                    lat: 0,
+                    lng: 70,
+                    zoom: 2
+                }
+            },
+            {
+                name: "Saint-Pierre et Miquelon",
+                id: "oversea-spm",
+                description: "These islands are located on the west Canadian coast and are the only remaining vestige of French sovereignty in North America. Like many colonized islands they have been disputed by European kingdoms since their discovery. Saint-Pierre et Miquelon have been French (1536), British (1713), French again (1763), British again (1793), French anew (1802), British anew (1803), French once again (1814), British once again (1815)... and finally back under French authority (1816) for good! Well, so far...",
+                blazon: "assets/img/regions/blazon-saint-pierre-miquelon.png",
+                coordinates: {
+                    lat: -57.27,
+                    lng: 46.98,
+                    zoom: 10
+                }
             }
-        }]
+        ]
     }
 ]
