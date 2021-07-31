@@ -88,7 +88,7 @@ When any slide or oversea territory is clicked, under the description area, a ma
 
 The map is centered on the selected region, and its borders are highlighted by a 3px blue line. The code to do so has been found on [Ourcodeworld.com](https://ourcodeworld.com/articles/read/830/how-to-highlight-an-area-city-state-or-country-in-google-maps-with-javascript), and modified to fit the app. Quite a bit of work & fun about these borders... :sweat_smile: All the detailed explanation can be found [here](https://github.com/LuciusVH/oui-oui-baguette/tree/main/assets/boundaries.md). If Outre Mer is selected, then all oversea territories are highlighted.
 
-For the filters, they propose to display only hotels, restaurants, bars, monuments, activities, or all of them.
+For the filters, they propose to display only hotels, restaurants, bars, monuments, activities, or all of them. They display 20 markers only, except the "all" filter which display a collection of all other filters, so a total of 100 markers. I implemented the marker clusterer function from Google Maps, so in case some individual markers get on one another, they all get collected under a clusterer which improves UX. 
 
 
 
@@ -228,25 +228,25 @@ To deploy the website live through GitHub Pages I:
 1. Went on my repository on GitHub and clicked on "Settings"
 
    <p align="center">
-     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/dpl-step1.png" alt="deployment step 1"/>
+     <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/dpl-step1.png" alt="deployment step 1"/>
    </p>
 
 2. Selected "Pages" on the left-side navigation menu
 
    <p align="center">
-     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/dpl-step2.png" alt="deployment step 2"/>
+     <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/dpl-step2.png" alt="deployment step 2"/>
    </p>
 
 3. On the "Source" section, I selected `Branch: main`, `/ (root)` & *Save*
 
    <p align="center">
-     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/dpl-step3.png" alt="deployment step 3"/>
+     <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/dpl-step3.png" alt="deployment step 3"/>
    </p>
 
 4. There you have it! :smile:
 
    <p align="center">
-     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/dpl-step4.png" alt="deployment step 4"/>
+     <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/dpl-step4.png" alt="deployment step 4"/>
    </p>
 
 ### Cloning
@@ -256,7 +256,7 @@ If you wish to clone the project and run it locally, follow these steps once on 
 1. Click on the "Code" button, then on the board icon to copy the link of the repo
 
    <p align="center">
-     <img src="https://github.com/LuciusVH/goatflix/blob/main/assets/img/readme/cln-step1.png" alt="cloning step 1"/>
+     <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/cln-step1.png" alt="cloning step 1"/>
    </p>
 
 2. Open your preferred IDE
