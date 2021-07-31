@@ -158,7 +158,7 @@ const REGION_CONFIG = [{ // Ile-de-France
         name: "Outre Mer",
         slideBackground: "assets/img/regions/outre-mer.jpg",
         id: "region-om",
-        description: "Being a former expansionist and colonialist superpower, France still has ownership in all or part on many oversea territories (by their own choice), all around the world. Here's the list, click on a name to discover more about it!",
+        description: "Being a former expansionist and colonialist superpower, France still has ownership in all or part on many oversea territories (by their own choice, regularly confirmed by referendums) all around the world. Here's the list, click on a name to discover more about it! The French Southern Territories are not displayed, since they are basically uninhabited, mostly used for science purposes and definitely not touristic places.",
         blazon: "",
         coordinates: {
             lat: 0,
