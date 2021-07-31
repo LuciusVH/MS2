@@ -1,4 +1,4 @@
-const REGION_CONFIG = [{
+const REGION_CONFIG = [{ // Ile-de-France
         name: "Ile-de-France",
         slideBackground: "assets/img/regions/ile-de-france.jpg",
         id: "region-idf",
@@ -10,7 +10,7 @@ const REGION_CONFIG = [{
             zoom: 7
         }
     },
-    {
+    { // Hauts-de-France
         name: "Hauts-de-France",
         slideBackground: "assets/img/regions/hauts-de-france.jpg",
         id: "region-hdf",
@@ -22,7 +22,7 @@ const REGION_CONFIG = [{
             zoom: 7
         }
     },
-    {
+    { // Normandie
         name: "Normandie",
         slideBackground: "assets/img/regions/normandie.jpg",
         id: "region-no",
@@ -34,7 +34,7 @@ const REGION_CONFIG = [{
             zoom: 6
         }
     },
-    {
+    { // Grand-Est
         name: "Grand-Est",
         slideBackground: "assets/img/regions/grand-est.jpg",
         id: "region-ge",
@@ -46,7 +46,7 @@ const REGION_CONFIG = [{
             zoom: 6
         }
     },
-    {
+    { // Bretagne
         name: "Bretagne",
         slideBackground: "assets/img/regions/bretagne.jpg",
         id: "region-br",
@@ -58,7 +58,7 @@ const REGION_CONFIG = [{
             zoom: 6
         }
     },
-    {
+    { // Pays de la Loire
         name: "Pays de la Loire",
         slideBackground: "assets/img/regions/pays-de-la-loire.jpg",
         id: "region-pdll",
@@ -70,7 +70,7 @@ const REGION_CONFIG = [{
             zoom: 7
         }
     },
-    {
+    { // Centre-Val de Loire
         name: "Centre-Val de Loire",
         slideBackground: "assets/img/regions/centre-val-de-loire.jpg",
         id: "region-cvdl",
@@ -82,7 +82,7 @@ const REGION_CONFIG = [{
             zoom: 7
         }
     },
-    {
+    { // Bourgogne-Franche-Comté
         name: "Bourgogne-Franche-Comté",
         slideBackground: "assets/img/regions/bourgogne-franche-comte.jpg",
         id: "region-bfc",
@@ -94,7 +94,7 @@ const REGION_CONFIG = [{
             zoom: 6
         }
     },
-    {
+    { // Nouvelle-Aquitaine
         name: "Nouvelle-Aquitaine",
         slideBackground: "assets/img/regions/nouvelle-aquitaine.jpg",
         id: "region-na",
@@ -106,7 +106,7 @@ const REGION_CONFIG = [{
             zoom: 6
         }
     },
-    {
+    { // Auvergne-Rhône-Alpes
         name: "Auvergne-Rhône-Alpes",
         slideBackground: "assets/img/regions/auvergne-rhone-alpes.jpg",
         id: "region-ara",
@@ -118,7 +118,7 @@ const REGION_CONFIG = [{
             zoom: 6
         }
     },
-    {
+    { // Occitanie
         name: "Occitanie",
         slideBackground: "assets/img/regions/occitanie.jpg",
         id: "region-oc",
@@ -130,7 +130,7 @@ const REGION_CONFIG = [{
             zoom: 6
         }
     },
-    {
+    { // Provence-Alpes-Côte d'Azur
         name: "Provence-Alpes-Côte d'Azur",
         slideBackground: "assets/img/regions/provence-alpes-cote-dazur.jpg",
         id: "region-paca",
@@ -142,7 +142,7 @@ const REGION_CONFIG = [{
             zoom: 7
         }
     },
-    {
+    { // Corse
         name: "Corse",
         slideBackground: "assets/img/regions/corse.jpg",
         id: "region-co",
@@ -154,7 +154,7 @@ const REGION_CONFIG = [{
             zoom: 8
         }
     },
-    {
+    { // Outre Mer
         name: "Outre Mer",
         slideBackground: "assets/img/regions/outre-mer.jpg",
         id: "region-om",
@@ -166,7 +166,7 @@ const REGION_CONFIG = [{
             zoom: 2
         }
     },
-    {
+    { // La Réunion
         name: "La Réunion",
         id: "oversea-re",
         description: "This island is one of the two French possessions in the Indian Ocean, with Mayotte. The capital is Saint-Denis, located in the top north. Firstly named Bourbon Island, the name has been changed after the French Revolution, Bourbon being the name of the previously reigning dynasty. Is it the seat of one of the most active volcano, Piton de la Fournaise (Peak of the Furnace). The temperature on the island is globally the same all year long (on the coast), in between 25°C to 31°C. Local food & creole music are both to be experienced if you visit the island.",
@@ -177,7 +177,7 @@ const REGION_CONFIG = [{
             zoom: 9
         }
     },
-    {
+    { // Nouvelle-Calédonie
         name: "Nouvelle-Calédonie",
         id: "oversea-nc",
         description: "Comprizing a dozen of islands in the Pacific, the major island being Grande Terre and the seat of the prefecture Nouméa. New Caledonia shares a common currency with her pacific sisters, Wallis and Futuna & French Polynesia: the Pacific franc, but New Caledonia also recognize Euro. Several referendums have been organized, but independance has always been rejected, although the independancy is getting slowly more votes every time. A last referendum is planned for the end of 2021. The archipelago is surrounded by a oral reef (1'600km, the longest in the world), creating one of the biggest lagoon in the world (+24'000sqm). The biodiversity is abundant there (5% of the species are endemic, meaning you can only find them there) and we still have much more to discover, as many areas remain unexplored.",
@@ -188,7 +188,7 @@ const REGION_CONFIG = [{
             zoom: 6
         }
     },
-    {
+    { // Mayotte
         name: "Mayotte",
         id: "oversea-ma",
         description: "This island is one of the two French possessions in the Indian Ocean, with La Réunion. It is also the youngest French territory: half of its population is aged less than 17yo! Mamoudzou, the capital city, is home of 71'000 people of Mayotte's 280'000 total inhabitants. Tourism is not really developed in Mayotte, mostly because its neighbor islands (e.g.Madagascar, Mauritius or Seychelles) have much more white sand beaches than Mayotte. On the contrary, the island's sand is known to be black, or brown, or grey, or red, or beige... but rarely white. But that also means this island's natural environment is mostly left untouched. Mayotte has a double coral reefs, which can only be seen in a dozen places in the world and if you are lucky, you can even observe whales at large.",
@@ -199,7 +199,7 @@ const REGION_CONFIG = [{
             zoom: 10
         }
     },
-    {
+    { // Martinique
         name: "Martinique",
         id: "oversea-mt",
         description: "Firstly charted in 1493 by C. Colombus, he will be the first European to set foot on the island in 1502, but no colony was settled until 1635, by France. Fort-de-France is the main city and capital, home of 80'000 people (around 370'000 for the whole island). Several referendums have been organized and a huge majority of Martinicans chose to remain under French flag, so far the island is fully integrated to French administration and the full law is enforced (e.g. no independant taxation system like in Saint-Martin or Saint-Barthelemy). Under tropical climate, the island is home to some beautiful species, including some endemic (meaning they can only be found there) like Caribena versicolor... a blueish tarantula with red abdomen & pink hairy legs. Hope you are not afraid!",
@@ -210,7 +210,7 @@ const REGION_CONFIG = [{
             zoom: 10
         }
     },
-    {
+    { // La Guadeloupe
         name: "Guadeloupe",
         id: "oversea-gd",
         description: "Mostly composed of 3 islands: the continental Guadeloupe (the butterfly shaped island, with Basse-Terre on the west part and Grande-Terre on the east) and the islands of Marie-Galante & La Désirade. The capital is Basse-Terre and we will let you guess on which part it is located! Btw, the nickname of \"Butterfly island\" has no history link for once, it is due to modern tour operators and marketing. The actual name of Guadeloupe comes from C. Colombus who landed on the island in 1493 and the French colonization started in 1635 after kicking out the Spanish settlers. As it is in most of the Christian world, Mardi Gras is the moment to admire a beautiful carnival and Guadeloupe's is reputed to be one of the most festive.",
@@ -221,7 +221,7 @@ const REGION_CONFIG = [{
             zoom: 9
         }
     },
-    {
+    { // Guyane Française
         name: "Guyane Française",
         id: "oversea-gu",
         description: "The French set foot on this part of the world in 1503 but a proper settlement only started in 1643 with the foundation of Cayette, still the capital today. Guyane is definitely the most woody region of France, with 97% of its territory covered with forests (relatively untouched, which makes it one of the richest and unexploited forest in the world). Fun fact, the longest French land border is in Guyane: 730km, with Brazil. Guyane is the seat of the Guiana Space Center (or Europe's Spaceport), created by Charles de Gaulle in 1964 in Kourou. It was the perfect spot to create a launching station, since it's near the equator: less energy required to launch a rocket due to the angular momentum provided by Earth's rotation... yeah, we don't really understand this neither, don't you worry. But also since it's open to sea on the east, so potential launch failures crash down in the ocean and not on human's heads (this we quite get!).",
@@ -232,7 +232,7 @@ const REGION_CONFIG = [{
             zoom: 7
         }
     },
-    {
+    { // Saint-Martin
         name: "Saint-Martin",
         id: "oversea-sm",
         description: "Let us spare you the historical ping-pong of sovereignty, betwen French, Dutch, English, Spanish... The result is that nowadays, this island is splitted in between two sovereignties: French (north) and Dutch (south). We are going to talk about the French part only. The official language is French but English is actually the most spoken language on the island, facilitating the communication between the two parts. Ever since 1850, it was granted the status of free port, meaning there is no importation tax, and since 2007 Saint-Martin has fiscal independancy from France, meaning local taxes are collected by and for the island, not France. Besides its fiscal advantages, the island is known for its beautiful beaches and nightlife, which we are sure you will enjoy.",
@@ -243,7 +243,7 @@ const REGION_CONFIG = [{
             zoom: 11
         }
     },
-    {
+    { // saint-Barthélemy
         name: "Saint-Barthélemy",
         id: "oversea-sb",
         description: "As many territories in the region, it was discovered by C. Colombus (in 1493), and occupied by France since 1648. Louis XVI gives away the island to Gustav III, king of Sweden, in 1784... And Oskar II, king of Sweden and Norway, sell it back to France in 1878 after the island had been ravaged by a hurricane. Small fun fact: Oskar II donated the amount he got for Saint-Barthelemy back to the island and its inhabitants. This Swedish rules left some marks, still visible nowadays: the capital's name Gustavia (homage to Gustav III), many direction signs and roads are still showing their past Swedish names, and the status of free port (no importation tax). The island is quite well known for its beautiful beaches and its fancy lifestyle. As a matter of fact, plenty celebrities and wealthy people have places there. And it all started in 1957, when David Rockefeller bought a field and had built his luxurious villa...",
@@ -254,7 +254,7 @@ const REGION_CONFIG = [{
             zoom: 11
         }
     },
-    {
+    { // Wallis et Futuna
         name: "Wallis et Futuna",
         id: "oversea-wf",
         description: "Constitued of 3 islands, the bigger being Wallis, distant of 230km from the 2 others, then Futuna and then Alofi. The main town is Mata-Utu, located on Willis island, home of a bit more than 1'000 people. As many islands in this region, they are quite difficult to reach by the sea due to the corral reefs surrounding them, and they benefit from a tropical humid climate, meaning there's no huge variation of temperature between the two seasons: from May to September (fresh, light wind, 24°C~29°C) and from October to April (heavy rainfall, heat, sometimes hurricanes, 25°C~31°C). Also typical of islands, many species are endemic (can only be found there). Historically, these islands have the particularity of never been literally colonized, they rather placed themselves under French protectorate during the 19th century. You can still found local kings or queens nowadays.",
@@ -265,7 +265,7 @@ const REGION_CONFIG = [{
             zoom: 7
         }
     },
-    {
+    { // Polynésie Française
         name: "Polynésie Française",
         id: "oversea-pf",
         description: "French Polynesia is a collective of more than 100 islands, scattered across more than 2'000km². They are administratively grouped under 5 archipelagos: the main and most famous one being Society (with the islands of Tahiti & Bora-Bora), but also Marquesas, Gambier, Tuamotu & Austral. Paradisiac beaches of white or black sand, waterfalls, turquoise waters with bungalow hotels over the water, you name it. Come on, we don't even need to sell you this one.",
@@ -276,7 +276,7 @@ const REGION_CONFIG = [{
             zoom: 4
         }
     },
-    {
+    { // Saint-Pierre et Miquelon
         name: "Saint-Pierre et Miquelon",
         id: "oversea-spm",
         description: "These 8 islands are located on the east Canadian coast and are the only remaining vestige of French sovereignty in North America. Mostly composed of 2 islands, Saint-Pierre being the smallest of the main ones but hosting +85% of the whole population in the capital, also called Saint-Pierre. The main island is Miquelon-Langlade, actually made of two islands (Miquelon & Langlade) joint together by a sandy tombolo. Like many colonized islands they have been disputed by European kingdoms since their discovery. Saint-Pierre et Miquelon have been French (1536), British (1713), French again (1763), British again (1793), French anew (1802), British anew (1803), French once again (1814), British once again (1815)... and finally back under French authority (1816) for good! Well, so far...",
