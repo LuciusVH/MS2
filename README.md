@@ -88,9 +88,25 @@ When any slide or oversea territory is clicked, under the description area, a ma
 
 The map is centered on the selected region, and its borders are highlighted by a 3px blue line. The code to do so has been found on [Ourcodeworld.com](https://ourcodeworld.com/articles/read/830/how-to-highlight-an-area-city-state-or-country-in-google-maps-with-javascript), and modified to fit the app. Quite a bit of work & fun about these borders... :sweat_smile: All the detailed explanation can be found [here](https://github.com/LuciusVH/oui-oui-baguette/tree/main/assets/boundaries.md). If Outre Mer is selected, then all oversea territories are highlighted.
 
-For the filters, they propose to display only hotels, restaurants, bars, monuments, activities, or all of them. They display 20 markers only, except the "all" filter which display a collection of all other filters, so a total of 100 markers. I implemented the marker clusterer function from Google Maps, so in case some individual markers get on one another, they all get collected under a clusterer which improves UX. 
+For the filters, they propose to display only hotels, restaurants, bars, monuments, activities, or all of them. They display 20 markers only (as Google search displays only 20 results per page), except the "all" filter which display a collection of all other filters, so a total of 100 markers. I implemented the marker clusterer function from Google Maps, so in case some individual markers get on one another, they all get collected under a clusterer which improves UX. The clusterer can be clicked on, which zooms in and displays the markers (or another clusterer if some are still on one another).
 
+When a marker is clicked, an infowindow shows up and displays the place's name, rating & website: 
 
+<p align="center">
+  <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/infowindow1.png" alt="Infowindow with all data"/>
+</p>
+
+If the place does not have rating yet, or a website, then the infowindow shows a rating mention or nothing in case of website absence:
+
+<p align="center">
+  <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/infowindow2.png" alt="Infowindow with no rating"/>
+</p>
+
+|
+
+<p align="center">
+  <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/infowindow3.png" alt="Infowindow with no website"/>
+</p>
 
 The two fonts I've chosen are [Parisienne](https://fonts.google.com/specimen/Parisienne) & [Raleway](https://fonts.google.com/specimen/Raleway), both found on Google Fonts. I was looking for a nice handwritten font for my titles, to reflect authenticity and remind of the historical aspect I wanted to integrate to this project, because France and its regions are immensely rich of history. So I needed a font that was clean, nice to see but still easy to read (some handwritten fonts are beautiful but too detailed), and I selected 3 without really paying attention to their names... And when I saw one of them was actually named Parisienne, well... It was a sign :smile:! For the general font, I went with Raleway based on Google Fonts matching suggestions. I liked the simplicity of it.  
 
