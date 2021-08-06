@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Learn some facts about French regions & oversea territories and find cool places to stay at or visit.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        type="text/css">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Oui Oui Baguette - Discover more about French regions</title>
+</head>
+
+<body>
+    <header>
+        <!-- Mobile navbar -->
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#regions-container">Regions</a></li>
+            <li><a href="#" class="contact-modal-opening">Contact</a></li>
+        </ul>
+        <!-- Desktop navbar -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Oui Oui Baguette</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#regions-container">Regions</a></li>
+                    <li><a href="#" class="contact-modal-opening">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact modal opening icon -->
+        <img id="contact-modal-icon" class="contact-modal-opening" src="assets/img/icons/contact.png" alt="Paper plane icon, open up contact form" />
+
+        <div id="content-404" class="row">
+            <div class="col s12">
+                <img src="https://pngimg.com/uploads/broken_bottle/broken_bottle_PNG1.png" alt="Broken wine bottle drawing" />
+                <p>Seems like this is definitely not the right way!</p>
+                <p>Get back to the fun :)</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <img id="footer-img" src="assets/img/footer.png" alt="Silhouette image of a wine bottle and a glass" />
+    <footer>
+        <div class="row">
+            <div class="col s12">
+                <p id="follow">Follow us on:</p>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube" aria-hidden="true"></i><span class="visually-hidden">Youtube</span></a>
+                    </li>
+                </ul>
+                <p id="copyright">© Copyright Oui Oui Baguette 2021</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact modal -->
+    <div class="overlay contact-modal contact-modal-closing" id="contact-modal-overlay">
+    </div>
+    <div class="contact-modal" id="contact-form-border">
+        <div id="contact-form-container">
+            <div class="contact-modal-closing" id="contact-form-closing-icon-wrapper">
+                <i class="fas fa-times"></i>
+            </div>
+            <div id="contact-form-content">
+                <h3 id="contact-form-title">Contact us</h3>
+                <p id="contact-form-text">Any query?<br>Drop us a message and we will get back to you quickly.</p>
+                <form onsubmit="return sendMail(this);">
+                    <div class="row">
+                        <div class="col s6 input-field">
+                            <input id="fname" type="text" required>
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col s6 input-field">
+                            <input id="lname" type="text" required>
+                            <label for="lname">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 input-field">
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 input-field">
+                            <textarea id="message" class="materialize-textarea" required></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+                    </div>
+                    <input class="btn waves-effect waves-light" type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_GHc2qytuzrEwFCy97Yg9C");
+        })();
+    </script>
+    <!-- Custom scripts -->
+    <script src="assets/js/send-email.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() { // Allow the Materialize side navbar on mobile view (taken from Materialize docs)
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
