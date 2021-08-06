@@ -41,19 +41,19 @@ You can find the deployed site [here](https://luciusvh.github.io/oui-oui-baguett
 
 ## UX
 
-This website is designed mainly to easily discover French regions, including all oversea territories. It provides some facts (historical, demographical, geographical, political...) and displays a map of each region. Some filters have been designed to help navigate the map and show certain or all points of interest: restaurants, bars, hotels, touristic monuments or attractions/activities. 
+This website is designed mainly to easily discover​ French regions, including all oversea territories. It provides some facts (historical, demographical, geographical, political...) and displays a map of each region. Some filters have been designed to help navigate the map and show certain or all points of interest: restaurants, bars, hotels, touristic monuments or attractions/activities. 
 
 ### 	Structure & Design
 
-Oui Oui Baguette is structured in a single page website, divided in several sections. It also includes a 404 page. 
+**Oui Oui Baguette** is structured in a single page website, divided in several sections. It also includes a 404 page. 
 
-First of all, if viewed from a mobile in landscape, a [gray overlay]() with a message inviting the user to switch to portrait takes place (because some following features do not render well on small screen landscape oriented). 
+First of all, if viewed from a mobile in landscape, a gray overlay with a message inviting the user to switch to portrait takes place (because some following features do not render well on small screen landscape oriented). 
 
 <p align="center">
   <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/landscape-orientation.png" alt="Overlay taking place when the website is viewed from a landscape oriented mobile"/>
 </p>
 
-The landing area takes up all viewport screen, and display a different picture depending on if the orientation of the screen is portrait or landscape. An introduction text is centered and a Call-To-Action (CTA) button invites the user to go further down. On large screen (above 992px), the logo is located in the up left corner, while the navbar links "Home", "Regions" & "Contact" are up right. On smaller screen, they get hidden under a hamburger icon, taking place on the left up corner, while the logo is moved in the center. 
+The landing area takes up all viewport screen, and display a different picture depending on if the orientation of the screen is portrait or landscape (mostly useful if viewed from a tablet). An introduction text is centered and a Call-To-Action (CTA) button invites the user to go further down. On [large screen](https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/global-desktop.png) (above 992px), the logo is located in the up left corner, while the navbar links "Home", "Regions" & "Contact" are up right. On [smaller screen](https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/global-mobile.png), they get hidden under a hamburger icon, taking place on the left up corner, while the logo is moved in the center. 
 
 Since the user gets access to the regions right after the landing area, and to the contact form through a fixed icon in the right bottom corner of the screen (appearing once the user scrolls down), it did not appear useful to fix the navbar. 
 
@@ -80,15 +80,15 @@ Each slide corresponding to a French administrative region:
 13. Corse
 14. Outre Mer
 
-When any slide is clicked, content is displayed dynamically. A title appears, with the name of the selected region. Under it, a paragraph displaying some of the previously enounced facts, and on the left side the region's blazon is displayed. If the clicked slide is Outre Mer, then it mostly displays a list of 11 French oversea territories and no blazon (since Outre Mer is a collection of oversea territories, it does not have a blazon on its own). After you've clicked on any oversea territory's name, then the same configuration is called: name/description/blazon. For better UX, it also displays a "Back" link under the oversea territory's description, to get the users back to the listing, avoiding them to have to wait/drag the slides back to Outre Mer and click it. 
+On [large screen](https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/selected_region-desktop.png), when any slide is clicked, content is displayed dynamically. A title appears, with the name of the selected region. Under it, a paragraph displaying some of the previously enounced facts, and on the left side the region's blazon is displayed. If the clicked slide is Outre Mer, then it mostly displays a list of 11 French oversea territories and no blazon (since Outre Mer is a collection of oversea territories, it does not have a blazon of its own). After you've clicked on any oversea territory's name, then the same configuration is called: name/description/blazon. For better UX, it also displays a "Back" link under the oversea territory's description, to get the users back to the listing, avoiding them to have to wait/drag the slides back to Outre Mer and click it.
 
-If the app is viewed from a screen smaller than 600px, no blazon is displayed and the name & description are taking the whole width. 
+If the app is viewed from a [screen smaller](https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/selected_region-mobile.png) than 600px, no blazon is displayed and the name & description are taking the whole width. 
 
 When any slide or oversea territory is clicked, under the description area, a map and its filters show up. If the app is viewed from a screen larger than 992px, the filters are displayed on the left of the map. Otherwise they are displayed under it. 
 
-The map is centered on the selected region, and its borders are highlighted by a 3px blue line. The code to do so has been found on [Ourcodeworld.com](https://ourcodeworld.com/articles/read/830/how-to-highlight-an-area-city-state-or-country-in-google-maps-with-javascript), and modified to fit the app. Quite a bit of work & fun about these borders... :sweat_smile: All the detailed explanation can be found [here](https://github.com/LuciusVH/oui-oui-baguette/tree/main/assets/boundaries.md). If Outre Mer is selected, then all oversea territories are highlighted.
+The map centers on the selected region, and its borders are highlighted by a 3px blue line. The code to do so has been found on [Ourcodeworld.com](https://ourcodeworld.com/articles/read/830/how-to-highlight-an-area-city-state-or-country-in-google-maps-with-javascript), and modified to fit the app. Quite a bit of work & fun about these borders... :sweat_smile: All the detailed explanation can be found [here](https://github.com/LuciusVH/oui-oui-baguette/tree/main/assets/docs/boundaries.md). If Outre Mer is selected, then all oversea territories are highlighted.
 
-For the filters, they propose to display only hotels, restaurants, bars, monuments, activities, or all of them. They display 20 markers only (as Google search displays only 20 results per page), except the "all" filter which display a collection of all other filters, so a total of 100 markers. I implemented the marker clusterer function from Google Maps, so in case some individual markers get on one another, they all get collected under a clusterer which improves UX. The clusterer can be clicked on, which zooms in and displays the markers (or another clusterer if some are still on one another).
+For the filters, they propose to display only hotels, restaurants, bars, monuments, activities, or all of them. They display 20 markers only (as Google search displays only 20 results per page), except the "all" filter which display a collection of all other filters, so a total of 100 markers. I implemented the marker clusterer function from Google Maps, so in case some individual markers get on top of one another they all get collected under a clusterer, which improves UX. The clusterer can be clicked on, which zooms in and displays the markers (or another clusterer if some are still on top of one another). Also, when a filter icon is hovered on large screen or clicked on smaller screen, the mention "Filters" changes to what the selected filter refers to, just in case the icons weren't representative enough. 
 
 When a marker is clicked, an infowindow shows up and displays the place's name, rating & website: 
 
@@ -99,16 +99,21 @@ When a marker is clicked, an infowindow shows up and displays the place's name, 
 If the place does not have rating yet, or a website, then the infowindow shows a rating mention or nothing in case of website absence:
 
 <p align="center">
-  <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/infowindow2.png" alt="Infowindow with no rating"/>
+  <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/infowindow2.png" alt="Infowindow with no rating"/>         <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/infowindow3.png" alt="Infowindow with no website"/>
 </p>
 
-|
+Clicking on a new marker will automatically close the previously opened infowindow, so the user does not end up with different infowindows stacked on top of each other. 
 
-<p align="center">
-  <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/infowindow3.png" alt="Infowindow with no website"/>
-</p>
+Finally, when the user clicks on the navbar "Contact" link or the paper plane icon, it opens up a modal alert, overlaying the rest of the website. The contact form is simple: first name input field, last name input field, email input field & message input field + submit button. The modal can be closed down by clicking on the cross in the up right corner, or anywhere outside the modal. Since I wanted to keep the contact form really basic, I did not make a wireframe for it.
 
-The two fonts I've chosen are [Parisienne](https://fonts.google.com/specimen/Parisienne) & [Raleway](https://fonts.google.com/specimen/Raleway), both found on Google Fonts. I was looking for a nice handwritten font for my titles, to reflect authenticity and remind of the historical aspect I wanted to integrate to this project, because France and its regions are immensely rich of history. So I needed a font that was clean, nice to see but still easy to read (some handwritten fonts are beautiful but too detailed), and I selected 3 without really paying attention to their names... And when I saw one of them was actually named Parisienne, well... It was a sign :smile:! For the general font, I went with Raleway based on Google Fonts matching suggestions. I liked the simplicity of it.  
+On a more general design plan, I wanted to use the French flag colors so the three of them can be found on the "France" span in the landing area, as underline of the "Filters" mention and on the border of the contact form. The official colors are *#000091* - *#FFFFFF* - *#E1000F* as stated on the [French government website](https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/les-couleurs). The background-color of the button is *#000091* as well as is the contact form text color & the social media icons. I also used this blue as base for the general background-color of the body, and to highlight the regions/oversea territories boundaries. 
+
+You can also find the French flag as a marker, as previously said, and also as favicon. Other French symbols/clichés/symbols (yes, let's face it, they are actually French symbols lol) used are:
+
+- The baguette used in the logo :baguette_bread:
+- The wine bottle & glass as footer top decoration :wine_glass:
+
+The two fonts I've chosen are [Parisienne](https://fonts.google.com/specimen/Parisienne) & [Raleway](https://fonts.google.com/specimen/Raleway), while the default font is sans-serif, all found on Google Fonts. I was looking for a nice handwritten font for my titles, to reflect authenticity and remind of the historical aspect I wanted to integrate to this project, because France and its regions are immensely rich of history. So I needed a font that was clean, nice to see but still easy to read (some handwritten fonts are beautiful but too detailed), and I selected 3 without really paying attention to their names... And when I saw one of them was actually named Parisienne, well... It was a sign :smile:! For the general font, I went with Raleway based on Google Fonts matching suggestions. I liked the simplicity of it.  
 
 All links, interactive items or CTA are highlighted when hovered (here listed by chronological encounter): 
 
@@ -132,9 +137,14 @@ All links, interactive items or CTA are highlighted when hovered (here listed by
 8. Contact paper plane icon
    - The cursor changes to pointer
    - The paper plane icon giggles
-9. Social icons
+9. Closing cross on contact modal form
    - The cursor changes to pointer
-   - The social media icon get scaled up
+10. Submit button on contact modal form
+    - The cursor changes to pointer
+    - The shadow gets darkened
+11. Social icons
+    - The cursor changes to pointer
+    - The social media icon get scaled up
 
 ### User stories
 
