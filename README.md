@@ -491,7 +491,7 @@
 
   ### Content
 
-  - 
+  - All text content has been written by myself.
 
   ### Media
 
@@ -510,4 +510,7 @@
 
   ### Acknowledgements
 
-  - 
+  - Several code snippets on script.js have been taken from Google Maps documentation and modified to fit this app. They are all credited by comments in the code itself. 
+  - The code to display the boundaries of each territory has been found on [Our Code World](https://ourcodeworld.com/articles/read/830/how-to-highlight-an-area-city-state-or-country-in-google-maps-with-javascript). 
+  - I want to give a special thanks to Code Institute tutors who really, *really*, **really** pointed me in the right direction in order to implement some features of this app! Thanks a lot guys, you are amazing :raised_hands:
+  - And my boyfriend, who's now turning green every time he hears any more of my "Okay, what do you think of this?" :heart:
