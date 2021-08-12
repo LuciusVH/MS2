@@ -4325,4 +4325,4 @@ const BOUNDARIES_DATA = [{
             ]
         ]
     }
-]
+];

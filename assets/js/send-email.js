@@ -14,7 +14,7 @@ function sendMail(contactForm) {
                 $('#contact-form-text').text("Your email has been sent, we will get back to you soon!");
                 $('#contact-form-content form').hide();
 
-                resetForm()
+                resetForm();
             },
             function(error) {
                 console.log("FAILED - The email has not been sent", error);
@@ -22,7 +22,7 @@ function sendMail(contactForm) {
                 $('#contact-form-text').text("It seems something went wrong. We are probably already working on a fix, so try again later!");
                 $('#contact-form-content form').hide();
 
-                resetForm()
+                resetForm();
             }
         );
     return false; // To block from loading a new page
@@ -32,7 +32,7 @@ function sendMail(contactForm) {
 // Reset the form to its original condition
 function resetForm() {
     setTimeout(function() {
-        modalClosing()
+        modalClosing();
     }, 4000);
 
     setTimeout(function() {

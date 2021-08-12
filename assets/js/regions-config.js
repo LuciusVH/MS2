@@ -287,4 +287,4 @@ const REGION_CONFIG = [{ // Ile-de-France
             zoom: 10
         }
     }
-]
+];
