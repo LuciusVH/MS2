@@ -475,7 +475,13 @@
 
   4. In the terminal of your IDE, type `git clone https://github.com/LuciusVH/oui-oui-baguette.git` and press **Enter**
 
-  5. There you have it! :smile:
+  5. Do not forget to change the [Google Maps API key]() to your own, since mine is restricted to the deployed website & live preview addresses only. For more information, please visit [Google Maps documentation](https://developers.google.com/maps/documentation/javascript/get-api-key).
+
+  <p align="center">
+    <img src="https://github.com/LuciusVH/oui-oui-baguette/blob/main/assets/img/readme/gm-key.png" alt="location of the Google Maps API key"/>
+  </p>
+
+  6. There you have it! :smile:
 
   For more info and troubleshooting, please check [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
 
